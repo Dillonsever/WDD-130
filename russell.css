@@ -1,0 +1,48 @@
+.center{
+    text-align: center;
+    
+}
+.title{
+    color: white;
+}
+h1:hover {
+    color: black;
+  }
+h2{
+    font-size: 16px;
+    color: white;
+}
+.para{
+    
+        margin: auto;
+        width: 50%;
+        border: 3px solid green;
+        padding: 10px;
+}
+body {
+    background-color: #fba6ca;
+    margin-right: 550px;
+    margin-left: 550px;
+  }
+#photo{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;     
+}
+.center_text{
+   text-align: center;
+}
+#list{
+    text-align: left;
+}
+h4{
+    color: white;
+}
+h5{
+    text-align: center;
+    font-size: 16px;
+}
