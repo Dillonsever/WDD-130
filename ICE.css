@@ -1,0 +1,28 @@
+body{
+    margin: 0ex;
+    background-color: grey;
+}
+.circle{
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+}
+.boxone{
+    height: 300px;
+    width: 100%;
+    background-color: grey;
+    /* align-content: space-between; */
+    display: flex;
+    margin: auto;
+    
+}
+.imgone, .imgtwo, .imgthree{
+    border-radius: 50%;
+    padding: 5px;
+    border: 10px solid rgb(0, 0, 0);
+    margin: 40px;
+    width: 33%;
+    padding: 0px;
+    height: 100%;
+}

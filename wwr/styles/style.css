@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&family=Ubuntu:wght@300&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -15,12 +17,23 @@ nav a{
 main section{
     text-align: center;
 }
+.home-title{
+    font-size: 2em;
+    margin-top: 10px;
+}
 #background{
     height: 725px;
     background-color: #F4A261;
 }
 body{
     background-color: #2A9D8F;
+    font-family: Raleway, Ubuntu, arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color: #E9C46A;
@@ -31,12 +44,27 @@ nav a:hover{
 .book{
     background-color: #E76F51;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join{
     background-color: #264653;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.msg {
+  line-height: 1.5em;
+  padding: 35px;
+}
 .logo{
     width: 80px;
 }
@@ -52,3 +80,28 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }    
+#logo_link{
+    padding-top: 5px;
+}
+nav a{
+    padding: 35px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
+}
